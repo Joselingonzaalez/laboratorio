@@ -1,0 +1,98 @@
+body{
+    background-image: url(img/fondopantalla4.jpg);
+    background-size: 100%;
+    background-repeat: repeat;
+}
+
+.subtitulos{
+    margin-top: 60px;
+    margin-bottom: 40px;
+    font-size: 60px;
+    color: white;
+}
+
+.subtitulos-cuadrito{
+    margin-bottom: 40px;
+    font-size: 60px;
+    color: white;
+}
+
+.imagen-redonda{
+    border-radius: 100%;
+    }
+
+.justificar-parrafo{
+    text-align: justify;
+    font-size: 25px;
+}
+.centrar{
+    text-align: center;
+}
+.margen-item{
+    margin-left: 13rem;
+}
+
+.marketing .col-lg-4 {
+    margin-bottom: 1rem;
+    padding-top: 1.5rem;
+    text-align: center;
+    
+  }
+
+.paredes{
+    border-left: solid 2px white;
+}
+.paredes-abajo{
+    border-bottom: solid 2px white;
+}
+
+.formulario{
+    border: 3px;
+}
+.marketing h2 {
+    font-weight: 400;
+}
+.marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+}
+
+.cosas-footer{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+  }
+
+  @media (max-width: 1000px) {
+    .paredes, .paredes-abajo{
+        border: none;
+      }
+  }
+  
+  @media (max-width: 400px) {
+    .margen-item{
+        margin-left: 6.5rem;
+    }
+    body{
+        background-size: cover;
+    }
+    .justificar-parrafo{
+        font-size: 20px;
+    }
+      .subtitulos{
+        margin-top: 20px;
+        margin-bottom: 40px;
+        font-size: 40px;
+      }
+      .subtitulos-cuadrito{
+        margin-bottom: 20px;
+        font-size: 35px;
+      }
+      
+      .featurette-divider {
+        margin: 2rem 0;
+      }
+  }
